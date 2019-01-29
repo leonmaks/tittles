@@ -1,0 +1,19 @@
+{
+  "name": "tittles",
+  "version": "0.0.1",
+  "description": "Small helpful things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonmaks/tittles.git"
+  },
+  "author": "leonmaks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonmaks/tittles/issues"
+  },
+  "homepage": "https://github.com/leonmaks/tittles#readme"
+}
