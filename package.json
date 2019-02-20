@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/leonmaks/tittles/issues"
   },
-  "homepage": "https://github.com/leonmaks/tittles#readme"
+  "homepage": "https://github.com/leonmaks/tittles#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv-safe": "^6.1.0"
+  }
 }

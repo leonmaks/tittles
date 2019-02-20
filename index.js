@@ -5,6 +5,7 @@
 
 
 module.exports = {
+  env: require("./lib/env"),
   array: require("./lib/array"),
   dicarray: require("./lib/dicarray"),
   error: require("./lib/error"),
