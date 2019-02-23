@@ -1,13 +1,19 @@
 "use strict"
 
-/* eslint-disable global-require */
+const importLazy = require("import-lazy")(require)
 
 
 
 module.exports = {
-  env: require("./lib/env"),
-  array: require("./lib/array"),
-  dicarray: require("./lib/dicarray"),
-  error: require("./lib/error"),
-  sjoin: require("./lib/sjoin"),
+
+  env: importLazy("./tittles/env"),
+
+  array: importLazy("./tittles/array"),
+  dicarray: importLazy("./tittles/dicarray"),
+
+  sjoin: importLazy("./tittles/sjoin"),
+
+  isstring: importLazy("./tittles/isstring"),
+
+  error: importLazy("./tittles/error"),
 }
