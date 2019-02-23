@@ -18,6 +18,7 @@
   "homepage": "https://github.com/leonmaks/tittles#readme",
   "devDependencies": {},
   "dependencies": {
+    "dotenv-safe": "^6.1.0",
     "import-lazy": "^3.1.0"
   }
 }
