@@ -11,17 +11,13 @@ const list_prefixed_values = (dicarray, key, prefix = "") => {
   return values_
 }
 
-const lpv = (dicarray, key, prefix) => list_prefixed_values(dicarray, key, prefix)
-
-const list_values = (dicarray, key) => list_prefixed_values(dicarray, key)
-
-const lv = (dicarray, key) => list_prefixed_values(dicarray, key)
-
 
 
 module.exports = {
+
   list_prefixed_values,
-  lpv,
-  list_values,
-  lv,
+  lpv: (dicarray, key, prefix) => list_prefixed_values(dicarray, key, prefix),
+
+  list_values: (dicarray, key) => list_prefixed_values(dicarray, key),
+  lv: (dicarray, key) => list_prefixed_values(dicarray, key),
 }

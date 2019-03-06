@@ -1,6 +1,6 @@
 "use strict"
 
-const isstring = require("./isstring")
+const { isstring } = require("./string")
 
 
 

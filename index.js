@@ -13,7 +13,8 @@ module.exports = {
 
   sjoin: importLazy("./tittles/sjoin"),
 
-  isstring: importLazy("./tittles/isstring"),
+  string: importLazy("./tittles/string"),
 
   error: importLazy("./tittles/error"),
+  Exception: importLazy("./tittles/Exception"),
 }
