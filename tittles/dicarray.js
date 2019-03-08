@@ -12,8 +12,17 @@ const list_prefixed_values = (dicarray, key, prefix = "") => {
 }
 
 
+const is_empty = dicarray => {
+  for (const key in dicarray) {
+    if (Object.prototype.hasOwnProperty(dicarray, key)) return false
+  }
+  return true
+}
+
 
 module.exports = {
+
+  is_empty,
 
   list_prefixed_values,
   lpv: (dicarray, key, prefix) => list_prefixed_values(dicarray, key, prefix),
