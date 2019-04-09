@@ -1,19 +1,19 @@
 "use strict"
 
-const importLazy = require("import-lazy")(require)
-
 
 module.exports = {
 
-  env: importLazy("./tittles/env"),
+  env: require("./tittles/env"),
 
-  array: importLazy("./tittles/array"),
-  dicarray: importLazy("./tittles/dicarray"),
+  array: require("./tittles/array"),
+  dicarray: require("./tittles/dicarray"),
 
-  sjoin: importLazy("./tittles/sjoin"),
+  nummer: require("./tittles/nummer"),
 
-  string: importLazy("./tittles/string"),
+  sjoin: require("./tittles/sjoin"),
 
-  error: importLazy("./tittles/error"),
-  Exception: importLazy("./tittles/Exception"),
+  string: require("./tittles/string"),
+
+  error: require("./tittles/error"),
+  Exception: require("./tittles/Exception"),
 }
