@@ -1,8 +1,6 @@
 "use strict"
 
-
-
 module.exports = {
 
-  diff: (array1, array2) => array1.filter(i => array2.indexOf(i) < 0),
+  except: (array1, array2) => array1.filter(entry => array2.indexOf(entry) < 0),
 }

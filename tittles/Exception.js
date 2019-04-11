@@ -1,6 +1,5 @@
 "use strict"
 
-
 class Exception extends Error {
 
   // Default http_code=500 means

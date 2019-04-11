@@ -1,6 +1,5 @@
 "use strict"
 
-
 const list_prefixed_values = (dicarray, key, prefix = "") => {
   const values_ = []
   dicarray.forEach(d_ => {
@@ -11,14 +10,13 @@ const list_prefixed_values = (dicarray, key, prefix = "") => {
   return values_
 }
 
-
 const is_empty = dicarray => {
   for (const key in dicarray) {
-    if (Object.prototype.hasOwnProperty(dicarray, key)) return false
+    // TODO: fix: Do not access Object.prototype method 'hasOwnProperty' from target object.eslint(no-prototype-builtins)
+    if (Object.hasOwnProperty(dicarray, key)) return false
   }
   return true
 }
-
 
 module.exports = {
 
