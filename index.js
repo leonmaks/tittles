@@ -3,7 +3,7 @@
 
 module.exports = {
 
-  env: require("./tittles/env"),
+  config: require("./tittles/config"),
 
   array: require("./tittles/array"),
   dicarray: require("./tittles/dicarray"),

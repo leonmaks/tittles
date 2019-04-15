@@ -18,5 +18,7 @@
   },
   "homepage": "https://github.com/leonmaks/tittles#readme",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "cosmiconfig": "^5.2.0"
+  }
 }

@@ -2,7 +2,7 @@
 
 module.exports = {
 
-  str: (error, {
+  print: (error, {
     separator = "; ", code = true, message = true, stack = true
   } = {}) => {
     const result_ = []
