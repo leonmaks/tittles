@@ -1,6 +1,6 @@
 {
   "name": "tittles",
-  "version": "0.0.8",
+  "version": "0.0.7",
   "description": "Small helpful things",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,10 @@
     "url": "https://github.com/leonmaks/tittles/issues"
   },
   "homepage": "https://github.com/leonmaks/tittles#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
   "dependencies": {
-    "cosmiconfig": "^5.2.0"
+    "cosmiconfig": "^6.0.0"
   }
 }

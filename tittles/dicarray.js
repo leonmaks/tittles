@@ -19,7 +19,6 @@ const is_empty = dicarray => {
 }
 
 module.exports = {
-
   is_empty,
 
   list_prefixed_values,
